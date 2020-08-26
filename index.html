@@ -125,32 +125,104 @@
           <i class="las la-angle-down text-xl mr-5"></i>
         </div>
       </div>
-      <div class="flex flex-col m-6 border-b border-gray-500 border-opacity-25"> <!--Header Conteúdo-->
-        <span class="font-bold text-4xl mb-14 text-white">Início</span>
-        <div class="flex flex-row justify-between">
-          <span class="text-bold text-white text-lg">Atalhos</span>
-          <div class="">
-            <button class="hover:text-white ml-2">
-              <i class="las la-angle-left text-lg"></i>
-            </button>
-            <button class="hover:text-white ml-2">
-              <i class="las la-angle-right text-lg"></i>
-            </button>
+      <div class="flex flex-col overflow-y-auto scroll-bar"> <!--Conteúdo Pai-->
+        <div class="flex flex-col m-6 border-b border-gray-500 border-opacity-25"> <!--Header Conteúdo-->
+          <span class="font-bold text-4xl mb-14 text-white">Início</span>
+          <div class="flex flex-row justify-between">
+            <span class="text-bold text-white text-lg">Atalhos</span>
+            <div class="">
+              <button class="hover:text-white ml-2">
+                <i class="las la-angle-left text-lg"></i>
+              </button>
+              <button class="hover:text-white ml-2">
+                <i class="las la-angle-right text-lg"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+          <div class="flex flex-row justify-between mx-6"> <!--Atalhos-->
+            <div class="flex flex-col"> <!--Primeiro Atalho-->
+              <button class="grid grid-cols-2 h-48 w-48 hover:opacity-50">
+                <img src="assets/img/apple.jpg">
+                <img src="assets/img/crossroad.jpg">
+                <img src="assets/img/sunrise.jpg">
+                <img src="assets/img/fever.jpg">
+              </button>
+              <span class="font-bold text-white text-xs py-2 hover:underline">DOIDINHAS</span>
+              <span class="text-xs">1 SEGUIDOR</span>
+            </div>
+            <div class="flex flex-col"> <!--Segundo Atalho-->
+              <button class="h-48 w-48 hover:opacity-50">
+                <img src="assets/img/snow.jpg">
+              </button>
+              <span class="font-bold text-white text-xs py-2 hover:underline">(: Snow</span>
+              <span class="text-xs">87 SEGUIDORES</span>
+            </div>
+            <div class="flex flex-col"> <!--Terceiro Atalho-->
+              <button class="grid grid-cols-2 h-48 w-48 hover:opacity-50">
+                <img src="assets/img/lala-gang.jpg">
+                <img src="assets/img/love-and-choppa.jpg">
+                <img src="assets/img/deus-e-familia.jpg">
+                <img src="assets/img/sangue-ruim.jpg">
+              </button>
+              <span class="font-bold text-white text-xs py-2 hover:underline">armadilha doida</span>
+            </div>
+            <div class="flex flex-col"> <!--Quarto Atalho-->
+              <button class="grid grid-cols-2 h-48 w-48 hover:opacity-50">
+                <img src="assets/img/butterfly.jpg">
+                <img src="assets/img/hate-you.jpg">
+                <img src="assets/img/dusk-till-dawn.jpg">
+                <img src="assets/img/wrong.jpg">
+              </button>
+              <span class="font-bold text-white text-xs py-2 hover:underline">malukas?</span>
+              <span class="text-xs">2 SEGUIDORES</span>
+          </div>
+        </div>
+        <div class="flex flex-row border-b border-gray-500 border-opacity-25 m-6 mt-14"> <!--Header tocadas recentemente-->
+          <span class="text-bold text-white text-lg">Tocadas recentemente</span>
+        </div>
+        <div class="flex flex-row justify-between mx-6">
+          <div class="flex flex-col"> <!--Primeiro Tocadas Recentemente-->
+            <div class="flex flex-col">
+              <button class="w-48 h-48 hover:opacity-50">
+                <img src="assets/img/apple.jpg">
+              </button>
+              <span class="font-bold text-white py-2 hover:underline">GFRIEND</span>
+            </div>
+          </div>
+          <div class="flex flex-col"> <!--Segundo Tocadas Recentemente-->
+            <div class="flex flex-col">
+              <button class="w-48 h-48 hover:opacity-50">
+                <img src="assets/img/sidoka.jpg">
+              </button>
+              <span class="font-bold text-white py-2 hover:underline">SIDOKA</span>
+            </div>
+          </div>
+          <div class="flex flex-col"> <!--Terceiro Tocadas Recentemente-->
+            <div class="flex flex-col">
+              <button class="w-48 h-48 hover:opacity-50">
+                <img src="assets/img/wjsn.jpg">
+              </button>
+              <span class="font-bold text-white py-2 hover:underline">WJSN</span>
+            </div>
+          </div>
+          <div class="flex flex-col"> <!--Quarto Tocadas Recentemente-->
+            <div class="flex flex-col">
+              <button class="w-48 h-48 hover:opacity-50">
+                <img src="assets/img/lala-gang.jpg">
+              </button>
+              <span class="font-bold text-white py-2 hover:underline">NGC DADDY</span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="flex flex-row mx-6"> <!--Conteúdo-->
-        <button class="h-48 w-48 bg-spotifygray-700">
-              
-        </button>
       </div>
-    </div>
-    <div class="flex flex-col w-64"> <!--Atividade-->
+    <div class="flex flex-col w-64 "> <!--Atividade-->
       <div class="flex flex-row border-b border-spotifygray-500 border-opacity-25 w-full h-12 mt-8">
         <span class="p-2 text-lg text-white">Atividade de amigos</span>
       </div>
-      <button class="flex flex-row mt-2">
-        <img class="flex flex-row object-contain mt-3 justify-center rounded-full h-10 w-10" src="assets/img/perfilAtividade.jpg">
+      <button class="flex flex-row mt-2 ml-4">
+        <img class="flex flex-row object-contain mt-3 justify-center rounded-full h-10 w-10 hover:opacity-50" src="assets/img/perfilAtividade.jpg">
         <div class="flex flex-col ml-4">
           <span class="flex items-start text-white hover:underline">Landerson Almeida</span>
           <span class="flex items-start hover:text-white hover:underline">Timeless</span>
@@ -162,7 +234,7 @@
         </div>
       </button>
       <div class="flex justify-center">
-        <button class="flex flex-row justify-center rounded-full border-2 border-white text-white w-48 mt-8">
+        <button class="flex flex-row justify-center rounded-full border-2 border-white text-white w-56 mt-8">
           <span class="flex text-xs p-1">ENCONTRAR AMIGOS</span>
         </button>
       </div>
