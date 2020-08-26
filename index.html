@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/output.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+</head>
+<body>
+  <div class="flex flex-row w-screen h-screen bg-darken-800 text-gray-400 text-sm font-kek">
+    <div class="flex flex-col h-full w-64"> <!--Menu Esquerdo-->
+      <div class="flex flex-col pl-4 h-40"> <!--Menu inicial-->
+        <button class="flex cursor-default">
+          <i class="las la-ellipsis-h text-3xl"></i>
+        </button>
+        <button class="flex flex-row items-center hover:text-white mb-3"> 
+          <i class="las la-home text-3xl"></i>
+          <span class="text-bold ml-4">Início</span>
+        </button>
+        <button class="flex flex-row items-center hover:text-white mb-3">
+          <i class="las la-drum text-3xl"></i>
+          <span class="text-bold ml-4">Navegar</span>
+        </button>
+        <button class="flex flex-row items-center hover:text-white">
+          <i class="las la-podcast text-3xl"></i>
+          <span class="text-bold ml-4">Rádio</span>
+        </button>
+      </div>
+      <div class="overflow-y-auto scroll-bar mt-4">
+        <div class="flex flex-col justify-between"> <!--Biblioteca-->
+          <span class="ml-4 font-mono">Sua Biblioteca</span>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Feito para você</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Tocados recentemente</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Músicas Curtidas</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Albúns</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Artistas</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Arquivos locais</span>
+          </button>
+          <button class="flex p-1 mb-4 ml-4 hover:text-white">
+            <span class="font-bold">Podcasts</span>
+          </button>
+        </div>
+
+        <div class="flex flex-col justify-between"> <!--Playlists-->
+          <span class="ml-4 font-mono">Playlists</span>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">malukas?</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">(: Snow</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">armadilha crazy</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">armadilha doida</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">um pouco menos que as doidas</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">champerlon</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">DOIDINHAS</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">pitty</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Rap</span>
+          </button>
+          <button class="flex p-1 ml-4 hover:text-white">
+            <span class="font-bold">Rock</span>
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-row items-center border-t border-gray-500"> <!--Nova Playlist-->
+        <button class="flex flex-row items-center p-5 hover:text-white">
+          <i class="las la-plus-circle text-3xl mr-3"></i>
+          <span class="">Nova playlist</span>
+        </button>
+      </div>
+    </div>
+    <div class="flex flex-row flex-1 bg-gradient-to-b from-lighten-100 to-darken-800 via-darken-800 h-full "> <!--Header-->
+      <div class="flex flex-row h-12 w-full justify-between items-center">
+        <div class="flex items-center">
+          <button class="hover:text-white ml-2">
+            <i class="las la-angle-left text-2xl"></i>
+          </button>
+          <button class="hover:text-white ml-2">
+            <i class="las la-angle-right text-2xl"></i>
+          </button>
+          <div class="ml-3 rounded-full bg-white font-sans">
+            <i class="las la-search text-black"></i>
+            <input
+            class="text-black bg-transparent" 
+            type="text"
+            placeholder="Buscar"
+            >
+          </div>
+        </div>
+        <div class="flex items-center">
+          <button class="hover:text-white hover:underline">
+            <div class="flex">
+              <img class="rounded-full object-contain h-6 w-6 mr-2" src="assets/img/perfil.jpg">
+              <span class="mr-4">Filipe</span>
+            </div>
+          </button>
+          <i class="las la-angle-down text-xl mr-5"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

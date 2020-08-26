@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.scroll-bar::-webkit-scrollbar {
+  @apply w-3 p-1 transition-all duration-100 rounded-full;
+}
+ 
+.scroll-bar.scroll-bar-mini::-webkit-scrollbar{
+  width: 3px !important;
+  background: transparent !important;
+}
+ 
+.scroll-bar::-webkit-scrollbar-thumb{
+  @apply rounded-lg bg-dark-800;
+}
+ 
+.scroll-bar::-webkit-scrollbar-thumb:hover{
+  @apply bg-spotifygreen-500;
+}

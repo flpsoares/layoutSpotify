@@ -1,0 +1,16 @@
+*, *::before, *::after{
+  outline: none !important;
+}
+
+button{
+  cursor: default !important;
+}
+
+input::placeholder{
+  color: black !important;
+}
+
+::-webkit-input-placeholder { 
+  font-family: FontAwesome;
+  text-align: left; 
+}
