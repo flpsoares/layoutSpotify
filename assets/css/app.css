@@ -6,11 +6,10 @@ button{
   cursor: default !important;
 }
 
-input::placeholder{
-  color: black !important;
+span{
+  cursor: default !important;
 }
 
-::-webkit-input-placeholder { 
-  font-family: FontAwesome;
-  text-align: left; 
+input::placeholder{
+  color: black !important;
 }
