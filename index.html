@@ -11,7 +11,7 @@
   <title>Spotify</title>
 </head>
 <body>
-  <div class="flex flex-row w-screen h-screen bg-darken-800 text-gray-400 text-sm font-kek">
+  <div class="flex flex-row w-screen h-screen bg-spotifydark-800 text-spotifygray-500 text-sm font-kek">
     <div class="flex flex-col h-full w-64"> <!--Menu Esquerdo-->
       <div class="flex flex-col pl-4 h-40"> <!--Menu inicial-->
         <button class="flex cursor-default">
@@ -90,14 +90,14 @@
           </button>
         </div>
       </div>
-      <div class="flex flex-row items-center border-t border-gray-500"> <!--Nova Playlist-->
+      <div class="flex flex-row items-center border-t border-spotifygray-500 border-opacity-25"> <!--Nova Playlist-->
         <button class="flex flex-row items-center p-5 hover:text-white">
           <i class="las la-plus-circle text-3xl mr-3"></i>
           <span class="">Nova playlist</span>
         </button>
       </div>
     </div>
-    <div class="flex flex-row flex-1 bg-gradient-to-b from-lighten-100 to-darken-800 via-darken-800 h-full "> <!--Header-->
+    <div class="flex flex-row flex-1 bg-gradient-to-b from-lighten-100 to-spotifydark-800 via-spotifydark-800 h-full "> <!--Header Main-->
       <div class="flex flex-row h-12 w-full justify-between items-center">
         <div class="flex items-center">
           <button class="hover:text-white ml-2">
@@ -124,6 +124,28 @@
           </button>
           <i class="las la-angle-down text-xl mr-5"></i>
         </div>
+      </div>
+    </div>
+    <div class="flex flex-col w-64"> <!--Atividade-->
+      <div class="flex flex-row border-b border-spotifygray-500 border-opacity-25 w-full h-12 mt-8">
+        <span class="p-2 text-lg text-white">Atividade de amigos</span>
+      </div>
+      <button class="flex flex-row mt-2">
+        <img class="flex flex-row object-contain mt-3 justify-center rounded-full h-10 w-10" src="assets/img/perfilAtividade.jpg">
+        <div class="flex flex-col ml-4">
+          <span class="flex items-start text-white hover:underline">Landerson Almeida</span>
+          <span class="flex items-start hover:text-white hover:underline">Timeless</span>
+          <span class="flex items-start hover:text-white hover:underline">Chiccote's beats</span>
+          <div class="flex flex-row items-center mt-1 hover:text-white hover:underline">
+            <i class="las la-music text-lg mr-1"></i>
+            <span class="">lofi hip hop music</span>
+          </div>
+        </div>
+      </button>
+      <div class="flex justify-center">
+        <button class="flex flex-row justify-center rounded-full border-2 border-white text-white w-48 mt-8">
+          <span class="flex text-xs p-1">ENCONTRAR AMIGOS</span>
+        </button>
       </div>
     </div>
   </div>
